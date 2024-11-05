@@ -1,0 +1,11 @@
+name: BlockParty
+version: 1.0.0
+main: BlockParty\BlockParty
+api: 
+  - 5.0.0
+description: "Mini-game BlockParty untuk PocketMine-MP"
+author: "VsrStudio"
+commands:
+  blockparty:
+    description: "Perintah utama untuk BlockParty"
+    usage: "/blockparty <start|stats|leaderboard|setduration|setlobby|setcolors>"
