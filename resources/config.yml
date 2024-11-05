@@ -1,0 +1,9 @@
+game_duration: 60
+lobby_duration: 30
+available_colors:
+  - red
+  - green
+  - blue
+  - yellow
+  - purple
+  - cyan
