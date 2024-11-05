@@ -2,25 +2,23 @@
 
 namespace BlockParty;
 
-class StatsManager {
-    private $plugin;
+use pocketmine\player\Player;
 
-    public function __construct(BlockParty $plugin) {
-        $this->plugin = $plugin;
+class StatsManager {
+
+    public function __construct() {
+        // Konstruksi kelas, jika ada kode inisialisasi lainnya
     }
 
     public function getWins(Player $player): int {
-        // Implementasi mengambil data kemenangan pemain
-        return 0;
+        // Implementasi fungsi untuk mendapatkan jumlah kemenangan
+        // Contoh:
+        // return (int) $this->data[$player->getName()]["wins"] ?? 0;
     }
 
     public function getMatchesPlayed(Player $player): int {
-        // Implementasi mengambil data jumlah pertandingan yang dimainkan pemain
-        return 0;
-    }
-
-    public function getLeaderboard(): array {
-        // Implementasi mengambil data leaderboard
-        return [];
+        // Implementasi fungsi untuk mendapatkan jumlah pertandingan yang dimainkan
+        // Contoh:
+        // return (int) $this->data[$player->getName()]["matchesPlayed"] ?? 0;
     }
 }
